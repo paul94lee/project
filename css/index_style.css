@@ -1,0 +1,93 @@
+@import url('common.css');
+
+html,
+body {
+    position: relative;
+}
+
+header {
+    font-family: Orator Std;
+    font-size: 36px;
+}
+
+
+
+.front_nav {
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 230px;
+
+}
+
+.front_nav ul {
+    font-family: Orator Std;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.front_nav ul li {}
+
+.front_nav ul li a {
+    position: relative;
+    
+    color: #000;
+}
+
+.front_nav ul li a img {
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+    width: 120px;
+}
+
+.front_nav ul li a:hover img {
+
+    position: absolute;
+    left: 40%;
+    top: -200px;
+    opacity: 0.8;
+    height: 600px;
+    width: 120px;
+    z-index: -1;
+}
+
+.front_nav ul li:nth-of-type(2):hover a img {
+
+    left: 60%;
+    top: -300px;
+    opacity: 0.7;
+   height: 600px;
+    width: 120px;
+    z-index: -1;
+}
+
+.front_nav ul li:nth-of-type(3):hover a img {
+
+    left: 25%;
+    top: -200px;
+    opacity: 0.7;
+    height: 600px;
+    width: 120px;
+    z-index: -1;
+}
+
+.front_nav ul li:nth-of-type(4):hover a img {
+
+    left: -40%;
+    top: -300px;
+    opacity: 0.7;
+   height: 600px;
+    width: 120px;
+    z-index: -1;
+}
+
+.front_nav ul li:nth-of-type(5):hover a img {
+
+    left: -35%;
+    top: -200px;
+    opacity: 0.7;
+   height: 600px;
+    width: 120px;
+    z-index: -1;
+}
+
