@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+/*font-family: 'Playfair Display', serif;*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+/*font-family: 'Ubuntu', sans-serif;*/
+
+
+/*
+
+1. 반복적인 스타일을 미리 선언하고 동일한 스타일의 콘텐츠에 사용
+2. 반복코드를 줄일 수 있음
+3. 효율적인 관리가 가능
+4. 페이지 저용량으로 로딩속도 개선
+*/
+/*header*/
+
+html,
+body {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    color: #626262;
+    font: 14px 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 30px;
+    color: #626262;
+}
+
+.mt130 {
+    margin-top: 130px !important;
+}
+
+.mt100 {
+    margin-top: 100px !important;
+}
+
+.mt80 {
+    margin-top: 80px !important;
+}
+
+.mt50 {
+    margin-top: 50px !important;
+}
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+
+.p80{
+    padding: 80px !important;}
+
+
+.f_center{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.f_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+/*font*/
+.f_s1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+
+}
+/*width*/
+.w_1060{
+    width: 1060px; margin: 0 auto;
+}
+
+
+/*align*/
+.center {text-align: center;}
+
+
+
+
+
